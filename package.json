@@ -1,6 +1,6 @@
 {
   "name": "react-animated-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
@@ -9,6 +9,7 @@
     "hooks.macro": "^1.0.1"
   },
   "devDependencies": {
+    "babel-plugin-macros": "^2.8.0",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
@@ -18,6 +19,9 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "babel-plugin-macros"
     ]
   },
   "scripts": {
