@@ -1,5 +1,5 @@
 {
-  "name": "animated-svg-path",
+  "name": "react-animated-path",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",
