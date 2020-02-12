@@ -76,3 +76,7 @@ with the following config:
   "singleQuote": true
 }
 ```
+
+# Licence
+
+MIT
